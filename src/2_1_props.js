@@ -5,6 +5,8 @@ import CountClicks from "./4_functional_components";
 import App from "./5_1_Conditional_Rendering_if_else";
 import Conditional from "./5_2_Conditional_Rendering";
 import Logical from "./5_3_Conditional_Rendering_logical";
+import SwitchComponent from "./5_4_Conditional_Rendering_switch";
+
 function ParentComponents(){
     return(
         <div>
@@ -15,6 +17,7 @@ function ParentComponents(){
             <App></App>
             <Conditional></Conditional>
             <Logical/>
+            <SwitchComponent LoggedIn = {true}/>
         </div>
     );
 }
