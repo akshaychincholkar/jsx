@@ -1,17 +1,22 @@
 import React from "react";
 import ChildComponent from "./2_2_props";
 import Section_1, { Section_2 } from "./3_components";
-import countClicks from "./4_functional_components";
-
+import CountClicks from "./4_functional_components";
+import App from "./5_1_Conditional_Rendering_if_else";
+import Conditional from "./5_2_Conditional_Rendering";
+import Logical from "./5_3_Conditional_Rendering_logical";
 function ParentComponents(){
     return(
         <div>
             <ChildComponent name="Akshay" father="Subhash Chincholkar"/>
             <Section_1></Section_1>
             <Section_2></Section_2>
-            <countClicks/>
+            <CountClicks></CountClicks>
+            <App></App>
+            <Conditional></Conditional>
+            <Logical/>
         </div>
-    )
+    );
 }
 export default ParentComponents;
 
