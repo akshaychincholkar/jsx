@@ -6,6 +6,8 @@ import App from "./5_1_Conditional_Rendering_if_else";
 import Conditional from "./5_2_Conditional_Rendering";
 import Logical from "./5_3_Conditional_Rendering_logical";
 import SwitchComponent from "./5_4_Conditional_Rendering_switch";
+import EnumRender from "./5_5_Conditional_Rendering_enus";
+import Counter from "./7_1_Hooks_useState";
 
 function ParentComponents(){
     return(
@@ -18,6 +20,8 @@ function ParentComponents(){
             <Conditional></Conditional>
             <Logical/>
             <SwitchComponent LoggedIn = {true}/>
+            <EnumRender/>
+            <Counter></Counter>
         </div>
     );
 }
