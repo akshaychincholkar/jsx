@@ -12,7 +12,6 @@ function App1 (){
 
  return (
 
-    //  {element}
     <div><h1>Ganpati Bappa Mourya!</h1>
     <h1>{year}</h1>
     <h1>Props in React.js</h1>
