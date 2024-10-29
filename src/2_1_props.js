@@ -7,7 +7,8 @@ import Conditional from "./5_2_Conditional_Rendering";
 import Logical from "./5_3_Conditional_Rendering_logical";
 import SwitchComponent from "./5_4_Conditional_Rendering_switch";
 import EnumRender from "./5_5_Conditional_Rendering_enus";
-import Counter from "./7_1_Hooks_useState";
+import UseStateDemo from "./7_1_Hooks_useState";
+import UseEffectDemo from "./7_2_Hooks_useEffect";
 
 function ParentComponents(){
     return(
@@ -21,7 +22,8 @@ function ParentComponents(){
             <Logical/>
             <SwitchComponent LoggedIn = {true}/>
             <EnumRender/>
-            <Counter></Counter>
+            <UseStateDemo></UseStateDemo>
+            <UseEffectDemo></UseEffectDemo>
         </div>
     );
 }
